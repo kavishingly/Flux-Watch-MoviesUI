@@ -283,6 +283,10 @@ img {
     opacity: 1;
 
 }
+.fa-star {
+    
+    color: yellow!important;
+}
 h5 {
     padding-left: 3%;
      border-left: 3px solid #fff;
