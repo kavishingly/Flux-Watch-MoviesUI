@@ -6,10 +6,22 @@
     
 }
 @media all and (max-width: 570px) {
+    .container {
+        width: 90%;
+    }
+    .row .col-sm-3 {
+        width: 80%;
+        height: auto;
+        margin: 2vh auto;
+        
+    }
     .class-img h1 {
         font-size: 1rem;
     }
-    .overlay span,p,a {
-        font-size: 5px !important;
+    .overlay span,
+    .overlay p,
+    .overlay a {
+        font-size: 10px !important;
     }
+    
 }
