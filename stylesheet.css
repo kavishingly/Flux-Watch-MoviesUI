@@ -179,7 +179,8 @@ img {
     justify-content: center;
     
 }
-.col-3 img {
+.col-3 img,
+.col-sm-3 img {
     /*margin-top: 60px;*/
     width: 100% !important;
     height: auto;
