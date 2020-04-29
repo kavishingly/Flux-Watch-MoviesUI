@@ -1,0 +1,48 @@
+:root {
+	
+	--dark-color: #152535;
+	--light-color: #203345;
+}
+* {
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+body {
+   
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    box-shadow: 0px 0px 10px #121212;
+}
+
+.content-display {
+    margin-top: 67px;
+    padding-left: 8%;
+}
+.col-5 {
+    position: relative;
+}
+.col-5 p{
+    color: #fff;
+    opacity: 0.7;
+}
+.ft {
+    font-size: 0.8rem;
+}
+.table {
+    font-size: 0.9rem;
+}
+.ftlg {
+    font-size: 4rem;
+}
+.no-shadow {
+    box-shadow: none;
+}

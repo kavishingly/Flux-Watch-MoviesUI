@@ -1,0 +1,303 @@
+:root {
+	
+	--dark-color: #152535;
+	--light-color: #203345;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    font-family: 'Poppins', sans-serif;
+}
+img {
+    box-shadow: 0px 0px 10px rgb(12, 12, 12);
+}
+.no-shadow {
+    box-shadow: none;
+}
+.f-josefin {
+    font-family: 'Josefin Sans' !important;
+}
+
+.main {
+    width: 100%;
+    background: var(--dark-color);
+    /* height: auto; */
+}
+.container {
+    padding: 0;
+    margin-top: 67px;
+    
+    width: 100%;
+}
+.overlay {
+    width: 95%;
+    display: none;
+    margin: 0 auto;;
+
+}
+.overlay-avenger {
+    font-size: 2rem;
+    width: 98%;
+    margin: 0 auto !important;
+    
+}
+.overlay-avenger .heading {
+    position: relative;
+    display: flex;
+}
+.overlay-avenger span {
+    font-size: 1rem;
+}
+.overlay-avenger .fa-plus {
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    bottom: 50%;
+}
+.av span {
+  display: inline-block;
+  font-size: 1rem !important;
+}
+.zoom:hover .overlay {
+    display: block !important;
+}
+.zoom:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+    z-index: 1;
+}
+
+.overlay a {
+    font-size: 20px;
+    opacity: 0.7;
+}
+.overlay a:hover {
+    opacity: 1;
+    color: #fff !important;
+}
+.overlay p {
+    font-size: 0.8rem;
+    
+}
+.overlay-footer {
+    position: relative;
+}
+.overlay-footer span{
+    font-size: 0.6rem;
+}
+.overlay-footer p {
+    margin-bottom: 0;
+}
+.certi {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.genre a {
+    font-size: 0.7rem;
+}
+.genre a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.footer-main {
+    margin-top: 0px;
+    height: auto;
+}
+.social-links {
+    padding: 20px;
+}
+.social-links li {
+    display: inline-block;
+}
+.social-links a {
+    display: inline-block;
+    color: #fff;
+    font-size: 2rem;
+    opacity: 0.7;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.links li {
+    display: inline-block;
+    /* margin-right: 5%; */
+    
+}
+.links a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.7;
+
+}
+.links a:hover {
+    opacity: 1;
+}
+.copyrights {
+    display: flex;
+    justify-content: center;
+}
+.links ul {
+    display: flex;
+    justify-content: center;
+}
+.foooter-logo {
+    display: flex;
+    justify-content: center;
+}
+.foooter-logo img {
+    height: 30px;
+    width: auto;
+}
+
+.fab {
+    width: 30px;
+}
+.avenger-col {
+    display: inline-block;
+   
+}
+.avenger-col img {
+    width: 100% !important;
+}
+.social-links ul {
+    display: flex;
+    justify-content: center;
+    
+}
+.col-3 img {
+    /*margin-top: 60px;*/
+    width: 100% !important;
+    height: auto;
+}
+.col-lg-9 {
+    padding: 0;
+
+}
+.class-img h1 {
+    position: absolute;
+    
+    bottom: 0;
+    left:2%;
+    color: #fff;
+    box-shadow: 0px 0px 10px #121212;
+    padding: 2px;
+    letter-spacing: 2px;
+    width: 60%;
+
+}
+.para {
+   opacity: 0.7;
+   font-family: Verdana, Tahoma , sans-serif;
+   font-size: 1rem;
+   
+}
+.class-img a {
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.fan-fav img {
+    width: 100%;
+    height: auto;
+
+}
+
+.top-rated img {
+    
+    width: 80%;
+    margin:auto !important;
+}
+.brk {
+    
+    box-shadow: inset  ;
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+.btn-new:hover {
+    color: var(--dark-color) !important;
+
+}
+img {
+    border-radius: 5px;
+}
+
+
+.search-icon {
+    position:relative;
+    right: 5px;
+}
+.bgLight {
+    background: var(--light-color);
+}
+.bgDark {
+    background: var(--dark-color);
+}
+
+.search-icon {
+    position: absolute;
+    right: 1px;
+}
+.opc {
+    opacity: 0.7;
+}
+.custom-btn {
+    position: absolute;
+    right: 25%;
+    top: 10px;
+}
+.btn-seemore {
+    display: inline-block;
+    width: 100%;
+    
+    opacity: 0.7;
+    
+}
+.btn-seemore:hover {
+    opacity: 1;
+}
+.fade-b a{
+   opacity: 0.8;
+   margin-right: 10px;
+}
+.fade-b a:hover {
+    opacity: 1;
+
+}
+h5 {
+    padding-left: 3%;
+     border-left: 3px solid #fff;
+}
+/* login modal */
+.fb-btn {
+    background: rgb(52, 52, 122);
+}
+.modal-footer .row {
+    display: flex;
+}
+form .container {
+    width: 85%;
+}
+.modal-content form .btn {
+    width: 100%;
+}
+
+

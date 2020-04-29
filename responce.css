@@ -1,0 +1,15 @@
+/* MEDIA QUERIES */
+@media all and (max-width: 800px) {
+    .class-img h1 {
+        font-size: 1.5rem;
+    }
+    
+}
+@media all and (max-width: 570px) {
+    .class-img h1 {
+        font-size: 1rem;
+    }
+    .overlay span,p,a {
+        font-size: 5px !important;
+    }
+}
